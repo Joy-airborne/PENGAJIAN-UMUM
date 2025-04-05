@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Flyer Pengajian Umum</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background-color: #e7f3eb;
+      color: #1b3d1b;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: 40px auto;
+      background-color: #ffffff;
+      border-radius: 16px;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      text-align: center;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(0.9); }
+      to { opacity: 1; transform: scale(1); }
+    }
+
+    .header {
+      background: linear-gradient(135deg, #4CAF50, #2e7d32);
+      color: white;
+      padding: 30px;
+    }
+
+    .header img {
+      max-width: 120px;
+      margin-bottom: 10px;
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+
+    .header h2 {
+      margin: 10px 0 0;
+      font-size: 20px;
+      font-weight: 400;
+    }
+
+    .content {
+      padding: 30px;
+      line-height: 1.6;
+    }
+
+    .info {
+      background-color: #f1fdf5;
+      border-left: 5px solid #4CAF50;
+      padding: 15px 20px;
+      margin-top: 20px;
+      border-radius: 8px;
+    }
+
+    .map {
+      margin-top: 20px;
+    }
+
+    .buttons {
+      margin-top: 30px;
+    }
+
+    .wa-btn {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      font-size: 16px;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .wa-btn:hover {
+      background-color: #2e7d32;
+    }
+
+    .footer {
+      background-color: #e0f2f1;
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+      color: #2e7d32;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <img src="LOGO AL-MANFIQ.png" alt="Logo Ponpes AL-MANFIQ II">
+      <h1>Pengajian Umum</h1>
+      <h2>Dalam Rangka IMTIHAN</h2>
+    </div>
+    <div class="content">
+      <p><strong>📍 Tempat:</strong> Pondok Pesantren AL-MANFIQ II<br>
+        Dusun Morasen, Desa Pasongsongan</p>
+      <p><strong>🗓️ Tanggal:</strong> 21 April 2025</p>
+      <p><strong>⏰ Waktu:</strong> 20.00 WIB s.d. selesai</p>
+
+      <div class="info">
+        <strong>🎧 Penceramah:</strong>
+        KH. Mustofa<br>
+        Pengasuh Pondok Pesantren Firdausi, Probolinggo
+      </div>
+
+      <div class="map">
+        <strong>📌 Lokasi Google Maps:</strong><br>
+        <a href="https://maps.app.goo.gl/NqUYK8ZkB8fxcdkG6" target="_blank">
+          Klik di sini untuk melihat lokasi
+        </a>
+      </div>
+
+      <div class="buttons">
+        <a href="https://wa.me/6282330500788?text=Assalamu%27alaikum%2C%20saya%20ingin%20mengonfirmasi%20kehadiran%20pada%20Pengajian%20Umum%20IMTIHAN%20di%20Ponpes%20AL-MANFIQ%20II%20pada%2021%20April%202025.%20Mohon%20informasi%20lebih%20lanjut%2C%20terima%20kasih." target="_blank" class="wa-btn">Konfirmasi Kehadiran via WhatsApp</a>
+      </div>
+    </div>
+    <div class="footer">
+      Terbuka untuk umum – Ajak keluarga dan sahabat untuk hadir & meraih keberkahan ilmu!
+    </div>
+  </div>
+</body>
+</html>
